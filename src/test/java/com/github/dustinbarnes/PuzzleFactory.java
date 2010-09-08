@@ -37,6 +37,21 @@ public final class PuzzleFactory
                         "050000690"));
             break;
 
+//            case 2:
+//                // From: http://en.wikipedia.org/wiki/Algorithmics_of_sudoku
+//                // the "near worst case" puzzle
+//                parse(puzzle, Arrays.asList(
+//                        "000000000",
+//                        "000003085",
+//                        "001020000",
+//                        "000507000",
+//                        "004000100",
+//                        "090000000",
+//                        "500000073",
+//                        "002010000",
+//                        "000040009"));
+//            break;
+
             default:
                 // From: http://www.websudoku.com/?level=4&set_id=7074607966
                 parse(puzzle, Arrays.asList(
